@@ -1,0 +1,56 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python application
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Parse index
+      run: |
+        python parse_index.py
+    
+    - name: Simple commit
+      # You may pin to the exact commit or the version.
+      # uses: zwaldowski/git-commit-action@66730766679672410dc04830ae6389f4376c8c94
+      uses: zwaldowski/git-commit-action@v1
+      with:
+        # Directory to create commit in
+        working_directory: .
+        # Commit message
+        # commit_message: # default is Automated commit
+        # Name to use for commit author
+        # author_name: # optional, default is GitHub Actions
+        # Email to use for commit author
+        author_email: actions@github.com
+    - name: GitHub Push
+      # You may pin to the exact commit or the version.
+      # uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        # Repository name to push. Default or empty value represents current github repository (${GITHUB_REPOSITORY})
+        repository: # optional, default is 
+        # Destination branch to push changes
+        branch: # optional, default is master
+        # Determines if force push is used
+        force: # optional
+        # Determines if --tags is used
+        tags: # optional
+        # Directory to change to before pushing.
+        directory: # optional, default is .
