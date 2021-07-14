@@ -1,11 +1,5 @@
-# windows
-
 * [禁用笔记本自带键盘](./%E7%A6%81%E7%94%A8%E7%AC%94%E8%AE%B0%E6%9C%AC%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98)
-
 * [设置命令行默认codepage](./%E8%AE%BE%E7%BD%AE%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%BB%98%E8%AE%A4codepage)
-
 * [查看文本文件内容](./%E6%9F%A5%E7%9C%8B%E6%96%87%E6%9C%AC%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9)
-
 * [shell地址](./shell%E5%9C%B0%E5%9D%80)
-
 * [bat获取IP](./bat%E8%8E%B7%E5%8F%96IP)
