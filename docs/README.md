@@ -13,5 +13,5 @@
 * [*autohotkey](./autohotkey)
 * [*tools](./tools)
 * [*mysql](./mysql)
-* [*code](./code)
+* [*programming](./programming)
 * [*python](./python)
