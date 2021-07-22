@@ -2,3 +2,4 @@
 * [python tricks](./python%20tricks)
 * [python multiprocessing分布式进程](./python%20multiprocessing%E5%88%86%E5%B8%83%E5%BC%8F%E8%BF%9B%E7%A8%8B)
 * [python多线程](./python%E5%A4%9A%E7%BA%BF%E7%A8%8B)
+* [python ctypes定义变长度的结构体field](./python%20ctypes%E5%AE%9A%E4%B9%89%E5%8F%98%E9%95%BF%E5%BA%A6%E7%9A%84%E7%BB%93%E6%9E%84%E4%BD%93field)
