@@ -17,7 +17,7 @@
 }
 ```
 
-对于其他网站，需要安装浏览器插件[`xStyle`](https://github.com/FirefoxBar/xStyle)/`stylish`等任意插件，以`xStyle`为例
+对于其他网站，需要安装浏览器插件[`xStyle`](https://github.com/FirefoxBar/xStyle)/`stylish`之类的插件，以`xStyle`为例
 
 添加以下样式
 
