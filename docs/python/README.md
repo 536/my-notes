@@ -1,8 +1,0 @@
-* [*pyqt5](./pyqt5)
-* [python tricks](./python%20tricks)
-* [python multiprocessing分布式进程](./python%20multiprocessing%E5%88%86%E5%B8%83%E5%BC%8F%E8%BF%9B%E7%A8%8B)
-* [python多线程](./python%E5%A4%9A%E7%BA%BF%E7%A8%8B)
-* [python多个装饰器的执行顺序](./python%E5%A4%9A%E4%B8%AA%E8%A3%85%E9%A5%B0%E5%99%A8%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F)
-* [python下载网络图片](./python%E4%B8%8B%E8%BD%BD%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87)
-* [python ctypes定义变长度的结构体field](./python%20ctypes%E5%AE%9A%E4%B9%89%E5%8F%98%E9%95%BF%E5%BA%A6%E7%9A%84%E7%BB%93%E6%9E%84%E4%BD%93field)
-* [python类装饰器](./python%E7%B1%BB%E8%A3%85%E9%A5%B0%E5%99%A8)

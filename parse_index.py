@@ -8,15 +8,34 @@ from urllib import parse
 BASE_DIR = Path(__file__).with_name('docs')
 
 
-def parse_index(p):
-    with open(p / 'README.md', 'w', encoding='utf-8') as f:
-        for ff in p.glob('*'):
-            if ff.is_dir():
-                f.write(f'* [*{ff.stem}](./{parse.quote(ff.stem)})\n')
-                parse_index(ff)
-            if ff.suffix.upper() == '.MD' and ff.stem.upper() != 'README':
-                f.write(f'* [{ff.stem}](./{parse.quote(ff.stem)})\n')
+def get_level(p):
+    i = 0
+    while p.parent != BASE_DIR:
+        p = p.parent
+        i += 1
+    return i
+
+
+def parse_index():
+    files = []
+    for file in BASE_DIR.rglob('*.md'):
+        if file not in files:
+            files.append(file)
+        while file.parent != BASE_DIR:
+            file = file.parent
+            if file not in files:
+                files.append(file)
+
+    with open(BASE_DIR.parent / '_sidebar.md', 'w', encoding='utf-8') as f:
+        for file in sorted(files, key=lambda x: x.as_posix()):
+            level = get_level(file)
+            if file.is_dir():
+                path = parse.quote(file.stem)
+            else:
+                path = f'[{file.stem}](/docs{parse.quote(file.as_posix().replace(BASE_DIR.as_posix(), ""))})'
+            print('  ' * level + f'+ {path}')
+            f.write('  ' * level + f'+ {path}\n')
 
 
 if __name__ == '__main__':
-    parse_index(BASE_DIR)
+    parse_index()
