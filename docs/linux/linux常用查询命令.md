@@ -1,8 +1,18 @@
-# linux常用命令
+# linux常用查询命令
+
+`whatis [cmd]` 查看命令的简略介绍
+
+`man [cmd]` 查看命令的详细介绍
+
+`cat /etc/passwd` 查看用户列表
+
+`cat /etc/passwd|grep -v nologin` 查看用户列表，排除不可登录的账户
 
 `uname -a` 查看系统版本
 
 `lsb_release -a` 查看系统版本
+
+`cat /etc/*-release` 查看系统版本
 
 `cat /etc/os-release` 查看系统版本
 
