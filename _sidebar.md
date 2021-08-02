@@ -84,3 +84,5 @@
   + [windows获取设备序列号](/docs/windows/windows%E8%8E%B7%E5%8F%96%E8%AE%BE%E5%A4%87%E5%BA%8F%E5%88%97%E5%8F%B7.md)
   + [常用注册表路径](/docs/windows/%E5%B8%B8%E7%94%A8%E6%B3%A8%E5%86%8C%E8%A1%A8%E8%B7%AF%E5%BE%84.md)
   + [管道符的含义](/docs/windows/%E7%AE%A1%E9%81%93%E7%AC%A6%E7%9A%84%E5%90%AB%E4%B9%89.md)
++ 他山之石
+  + [编写可读代码的艺术](/docs/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3/%E7%BC%96%E5%86%99%E5%8F%AF%E8%AF%BB%E4%BB%A3%E7%A0%81%E7%9A%84%E8%89%BA%E6%9C%AF.md)

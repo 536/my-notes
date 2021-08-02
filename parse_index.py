@@ -30,7 +30,7 @@ def parse_index():
         for file in sorted(files, key=lambda x: x.as_posix()):
             level = get_level(file)
             if file.is_dir():
-                path = parse.quote(file.stem)
+                path = file.stem
             else:
                 path = f'[{file.stem}](/docs{parse.quote(file.as_posix().replace(BASE_DIR.as_posix(), ""))})'
             print('  ' * level + f'+ {path}')

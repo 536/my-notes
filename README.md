@@ -1,3 +1,7 @@
-# my-technology-notes
+# 我为什么写博客？
 
-?> ![background](docs/_images/background.png)
+此处分享一篇文章
+
+?> <http://beiyuu.com/why-blog>
+
+?> ![我为什么写博客？](docs/_images/[beiyuu.com]我为什么写博客？.png)
