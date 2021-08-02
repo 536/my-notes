@@ -1,6 +1,6 @@
 # python ctypes定义变长度的结构体field
 
-```c++
+```cpp
 typedef struct
 {
     uint length;

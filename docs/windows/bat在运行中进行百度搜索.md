@@ -2,7 +2,7 @@
 
 将此脚本命令为`bd.bat`然后放在系统变量PATH指向的任意文件夹下
 
-```bat
+```batch
 @echo off
 set browser="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 set url=https://www.baidu.com/s?wd="%*"

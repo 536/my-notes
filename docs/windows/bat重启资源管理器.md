@@ -1,6 +1,6 @@
 # bat重启资源管理器
 
-```bat
+```batch
 taskkill /im explorer.exe /f
 start explorer.exe
 ```

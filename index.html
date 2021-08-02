@@ -66,7 +66,7 @@
     }
 
     .clear-button>svg>circle:hover {
-      fill: var(--theme-color, #42b983);
+      fill: var(--theme-color, #42B983);
     }
 
     .sidebar-toggle {
@@ -83,8 +83,8 @@
     }
 
     .docsify-copy-code-button {
-      color: var(--theme-color, #FFFFFF) !important;
-      background: var(--theme-color, #42b983) !important;
+      color: #FFFFFF !important;
+      background: var(--theme-color, #42B983) !important;
     }
 
   </style>
@@ -99,24 +99,25 @@
       },
       // logo: 'favicon.ico',
       // name: '',
+      themeColor: '#42B983',
       auto2top: true,
       autoHeader: true,
       coverpage: false,
-      executeScript: true,
+      // executeScript: true,
       // mergeNavbar: true,
       // formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
       topMargin: 90,
       // loadNavbar: false,
       loadSidebar: true,
+      subMaxLevel: 2,
       repo: '536/my-technology-notes',
       // relativePath: true,
       // basePath: 'https://raw.githubusercontent.com/536/my-technology-notes/master/docs/',
 
+      // 搜索
+      // https://docsify.js.org/#/plugins?id=full-text-search
       search: {
-        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-        paths: [], // or 'auto'
-        placeholder: 'Type to search',
-        noData: 'No Results!',
+        paths: 'auto',
         hideOtherSidebarContent: true,
       },
 
@@ -124,7 +125,7 @@
       // https://github.com/HerbertHe/docsify-progress
       progress: {
         position: "top",
-        color: "var(--theme-color,#42b983)",
+        color: "var(--theme-color,#42B983)",
         height: "3px",
       },
 
@@ -143,6 +144,9 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-autohotkey.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-batch.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
   </script>
 </body>

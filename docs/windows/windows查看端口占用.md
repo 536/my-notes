@@ -2,7 +2,7 @@
 
 查看端口是否被占用及占用端口的程序是什么，以`3306`端口为例
 
-```bat
+```batch
 netstat -aon|findstr :3306
 ```
 
@@ -15,7 +15,7 @@ netstat -aon|findstr :3306
 
 最后一列的`4696`即为进程的PID
 
-```bat
+```batch
 tasklist |findstr 4696
 ```
 
@@ -27,7 +27,7 @@ tasklist |findstr 4696
 
 关闭占用端口的进程
 
-```bat
+```batch
 通过进程名称
 TASKKILL /IM mysqld.exe
 通过进程ID，同时关闭子进程

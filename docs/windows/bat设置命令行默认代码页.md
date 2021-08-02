@@ -4,7 +4,7 @@
 
 ## 查看/修改codepage
 
-```bat
+```batch
 chcp # 查看codepage
 chcp 65001 # 修改codepage
 ```

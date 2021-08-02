@@ -2,7 +2,7 @@
 
 需要以`管理员权限`执行命令
 
-```bat
+```batch
 # 禁用 - 重启生效
 sc config i8042prt start= disabled
 # 启用

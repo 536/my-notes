@@ -1,6 +1,6 @@
 # windows获取设备序列号
 
-```bat
+```batch
 wmic bios get serialnumber
 ```
 

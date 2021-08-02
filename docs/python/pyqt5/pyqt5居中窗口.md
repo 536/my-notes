@@ -1,6 +1,6 @@
 # pyqt5居中窗口
 
-```Python
+```python
 import sys
 
 from PyQt5 import QtWidgets

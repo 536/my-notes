@@ -1,6 +1,6 @@
 # python多个装饰器执行的顺序
 
-```Python
+```python
 def A(fn):
     print(2)
 

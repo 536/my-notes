@@ -20,7 +20,7 @@ mod_wsgi下载地址：<https://www.lfd.uci.edu/~gohlke/pythonlibs/#mod_wsgi>
 
 1.安装mod_wsgi并获取Python环境信息
 
-```bat
+```batch
 mod_wsgi-express module-config
 > LoadFile "c:/python36/python36.dll"
 > LoadModule wsgi_module "c:/python36/lib/site-packages/mod_wsgi/server/mod_wsgi.cp36-win_amd64.pyd"
@@ -29,8 +29,11 @@ mod_wsgi-express module-config
 
 2.解压下载好的`httpd-2.4.41-win64-VS16.zip`到D盘根目录，目录结构参考如下
 
-```bat
+```batch
 tree D:\Apache24
+```
+
+> ```text
 > D:\APACHE24
 > ├───bin
 > │   └───iconv
@@ -49,7 +52,7 @@ tree D:\Apache24
 > ├───logs
 > ├───manual
 > └───modules
-```
+> ```
 
 3.修改conf/httpd.conf
 
@@ -103,7 +106,7 @@ Alias /media "D:\PYTHON\blog\media"
 
 4.1安装服务
 
-```bat
+```batch
 cd /d d:\Apache24\bin
 httpd.exe -k install -n "django_blog"
 ```
@@ -114,7 +117,7 @@ httpd.exe -k install -n "django_blog"
 
 4.2启动服务
 
-```bat
+```batch
 httpd.exe -k start -n "django_blog"
 ```
 
@@ -130,11 +133,11 @@ httpd.exe -k start -n "django_blog"
 
   端口被占用了，换一个。
 
-+ ModuleNotFoundError: No module named 'encodings'
++ `ModuleNotFoundError: No module named 'encodings'`
 
   使用虚拟环境venv时的mod_wsgi配置中会缺少python.dll的信息，所以不能用venv的环境。
 
-+ ModuleNotFoundError: No module named 'django'
++ `ModuleNotFoundError: No module named 'django'`
 
   某些情况下，Python环境为用户所有，需要将项目中使用到的所有包用管理员权限重新安装，便可解决此问题。
 
