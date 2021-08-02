@@ -8,7 +8,6 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
   <script>
     // 缓存
     if (typeof navigator.serviceWorker !== 'undefined') {
@@ -16,12 +15,23 @@
     }
   </script>
   <style>
-    .sidebar {
-      position: relative;
+    @media (prefers-color-scheme: dark) {
+      html {
+        background: #FFF !important;
+        filter: invert(0.9) hue-rotate(180deg) !important;
+      }
+
+      video,
+      img {
+        filter: invert(1) hue-rotate(180deg) !important;
+      }
     }
 
-    .search {
-      background-color: var(--codeBackgroundColor);
+  </style>
+  <style>
+    .sidebar {
+      position: relative;
+      user-select: none;
     }
 
     .search .input-wrap {
@@ -55,10 +65,6 @@
       transform: scale(.8) !important;
     }
 
-    .clear-button>svg>circle {
-      fill: var(--codeBackgroundColor);
-    }
-
     .clear-button>svg>circle:hover {
       fill: var(--theme-color, #42b983);
     }
@@ -68,33 +74,8 @@
       cursor: default;
     }
 
-    .sidebar-toggle::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      background-color: var(--codeBackgroundColor);
-      width: 300px;
-      height: 100%;
-      padding: 10px;
-      z-index: -1;
-      box-sizing: border-box;
-    }
-
     .sidebar-toggle-button {
       cursor: pointer;
-    }
-
-    .sidebar-toggle:hover .sidebar-toggle-button {
-      opacity: unset;
-    }
-
-    .sidebar-toggle-button:hover {
-      opacity: 0.4 !important;
-    }
-
-    .close .sidebar-toggle::after {
-      content: unset;
     }
 
     .markdown-section>h1~h1 {
@@ -102,13 +83,8 @@
     }
 
     .docsify-copy-code-button {
-      color: var(--textColor) !important;
-      background: var(--background) !important;
-    }
-
-    .markdown-section code,
-    .markdown-section pre {
-      font-family: var(--codeFontFamily) !important;
+      color: var(--theme-color, #FFFFFF) !important;
+      background: var(--theme-color, #42b983) !important;
     }
 
   </style>
@@ -144,65 +120,25 @@
         hideOtherSidebarContent: true,
       },
 
-      // 夜间模式
-      // https://docsify-darklight-theme.boopathikumar.me/
-      darklightTheme: {
-        siteFont: "Source Han Serif SC",
-        defaultTheme: 'light',
-        codeFontFamily: 'Source Code Variable, Consolas, monospace',
-        bodyFontSize: '17px',
-        dark: {
-          accent: '#42b983',
-          toogleBackground: '#ffffff',
-          background: '#21252B',
-          textColor: '#b4b4b4',
-          codeTextColor: '#ffffff',
-          codeBackgroundColor: '#282C34',
-          borderColor: '#1D1F23',
-          blockQuoteColor: '#858585',
-          highlightColor: '#d22778',
-          sidebarSublink: '#b4b4b4',
-          codeTypeColor: '#ffffff',
-          coverBackground: 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
-          toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/sun.svg)'
-        },
-        light: {
-          accent: '#42b983',
-          toogleBackground: '#091a28',
-          background: '#ffffff',
-          textColor: '#34495e',
-          codeTextColor: '#525252',
-          codeBackgroundColor: '#f8f8f8',
-          borderColor: 'rgba(0, 0, 0, 0.07)',
-          blockQuoteColor: '#858585',
-          highlightColor: '#d22778',
-          sidebarSublink: '#b4b4b4',
-          codeTypeColor: '#091a28',
-          coverBackground: 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
-          toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
-        },
+      // 阅读进度条
+      // https://github.com/HerbertHe/docsify-progress
+      progress: {
+        position: "top",
+        color: "var(--theme-color,#42b983)",
+        height: "3px",
+      },
 
-        // 阅读进度条
-        // https://github.com/HerbertHe/docsify-progress
-        progress: {
-          position: "top",
-          color: "var(--theme-color,#42b983)",
-          height: "3px",
-        },
-
-        // 复制代码
-        // https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
-        copyCode: {
-          buttonText: 'Copy to clipboard',
-          errorText: 'Error',
-          successText: 'Copied'
-        },
-      }
+      // 复制代码
+      // https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
+      copyCode: {
+        buttonText: 'Copy to clipboard',
+        errorText: 'Error',
+        successText: 'Copied'
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code@2"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
