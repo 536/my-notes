@@ -92,6 +92,7 @@
 
 <body>
   <div id="app"></div>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
       alias: {
@@ -106,7 +107,7 @@
       // executeScript: true,
       // mergeNavbar: true,
       // formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
-      topMargin: 90,
+      // topMargin: 90,
       // loadNavbar: false,
       loadSidebar: true,
       subMaxLevel: 2,
@@ -136,6 +137,10 @@
         errorText: 'Error',
         successText: 'Copied'
       },
+
+      plugins: [
+        EditOnGithubPlugin.create('https://github.com/536/my-technology-notes/blob/master/', null, 'Edit On Github')
+      ]
     }
   </script>
   <!-- Docsify v4 -->
@@ -145,7 +150,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-autohotkey.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-batch.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
   </script>

@@ -1,3 +1,3 @@
 # my-technology-notes
 
-[Github](https://github.com/536)
+?> ![background](docs/_images/background.png)
