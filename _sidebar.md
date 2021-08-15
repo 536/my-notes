@@ -86,4 +86,5 @@
   + [常用注册表路径](/docs/windows/%E5%B8%B8%E7%94%A8%E6%B3%A8%E5%86%8C%E8%A1%A8%E8%B7%AF%E5%BE%84.md)
   + [管道符的含义](/docs/windows/%E7%AE%A1%E9%81%93%E7%AC%A6%E7%9A%84%E5%90%AB%E4%B9%89.md)
 + 他山之石
+  + [我为什么写博客](/docs/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2.md)
   + [编写可读代码的艺术](/docs/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3/%E7%BC%96%E5%86%99%E5%8F%AF%E8%AF%BB%E4%BB%A3%E7%A0%81%E7%9A%84%E8%89%BA%E6%9C%AF.md)
