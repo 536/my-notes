@@ -82,6 +82,7 @@
   + [shell地址](/docs/windows/shell%E5%9C%B0%E5%9D%80.md)
   + [windows查看端口占用](/docs/windows/windows%E6%9F%A5%E7%9C%8B%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8.md)
   + [windows获取设备序列号](/docs/windows/windows%E8%8E%B7%E5%8F%96%E8%AE%BE%E5%A4%87%E5%BA%8F%E5%88%97%E5%8F%B7.md)
+  + [启用默认共享文件夹](/docs/windows/%E5%90%AF%E7%94%A8%E9%BB%98%E8%AE%A4%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9.md)
   + [常用注册表路径](/docs/windows/%E5%B8%B8%E7%94%A8%E6%B3%A8%E5%86%8C%E8%A1%A8%E8%B7%AF%E5%BE%84.md)
   + [管道符的含义](/docs/windows/%E7%AE%A1%E9%81%93%E7%AC%A6%E7%9A%84%E5%90%AB%E4%B9%89.md)
 + 他山之石
