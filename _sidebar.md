@@ -57,6 +57,7 @@
   + [python多个装饰器的执行顺序](/docs/python/python%E5%A4%9A%E4%B8%AA%E8%A3%85%E9%A5%B0%E5%99%A8%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F.md)
   + [python多线程](/docs/python/python%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)
   + [python抽象类](/docs/python/python%E6%8A%BD%E8%B1%A1%E7%B1%BB.md)
+  + [python移除前缀后缀](/docs/python/python%E7%A7%BB%E9%99%A4%E5%89%8D%E7%BC%80%E5%90%8E%E7%BC%80.md)
   + [python类装饰器](/docs/python/python%E7%B1%BB%E8%A3%85%E9%A5%B0%E5%99%A8.md)
 + tools
   + [html转png、pdf](/docs/tools/html%E8%BD%ACpng%E3%80%81pdf.md)
