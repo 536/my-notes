@@ -2,6 +2,8 @@
 
 ## 安装git
 
+<https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
+
 有许多种安装方式，主要分为两种，一种是通过编译源代码来安装；另一种是使用为特定平台预编译好的安装包。
 
 ### 从源代码安装
