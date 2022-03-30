@@ -51,6 +51,12 @@ glibc版本需要升级
     GLIBC_2.3
     ......
     ```
+    
+- 定位缺失的库文件
+
+    ```bash
+    locate libboost_com.so.xx.xx
+    ```
 
 ## 参考
 
