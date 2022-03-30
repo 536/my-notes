@@ -31,6 +31,7 @@
   + [element-ui table组件只展开一行的办法](/docs/js/element-ui%20table%E7%BB%84%E4%BB%B6%E5%8F%AA%E5%B1%95%E5%BC%80%E4%B8%80%E8%A1%8C%E7%9A%84%E5%8A%9E%E6%B3%95.md)
   + [element-ui回调事件传递默认参数](/docs/js/element-ui%E5%9B%9E%E8%B0%83%E4%BA%8B%E4%BB%B6%E4%BC%A0%E9%80%92%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0.md)
 + linux
+  + [bash tricks](/docs/linux/bash%20tricks.md)
   + [crontab使用](/docs/linux/crontab%E4%BD%BF%E7%94%A8.md)
   + [libc.so.6 version 'GLIBC_2.18' not found](/docs/linux/libc.so.6%20version%20%27GLIBC_2.18%27%20not%20found.md)
   + [linux常用查询命令](/docs/linux/linux%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%AF%A2%E5%91%BD%E4%BB%A4.md)
