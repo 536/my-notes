@@ -36,6 +36,7 @@
   + [libc.so.6 version 'GLIBC_2.18' not found](/docs/linux/libc.so.6%20version%20%27GLIBC_2.18%27%20not%20found.md)
   + [linux常用查询命令](/docs/linux/linux%E5%B8%B8%E7%94%A8%E6%9F%A5%E8%AF%A2%E5%91%BD%E4%BB%A4.md)
   + [linux常用软件安装升级配置](/docs/linux/linux%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E5%8D%87%E7%BA%A7%E9%85%8D%E7%BD%AE.md)
+  + [ubuntu常见配置](/docs/linux/ubuntu%E5%B8%B8%E8%A7%81%E9%85%8D%E7%BD%AE.md)
 + markdown
   + [python转换markdown为HTML及代码高亮](/docs/markdown/python%E8%BD%AC%E6%8D%A2markdown%E4%B8%BAHTML%E5%8F%8A%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE.md)
 + mysql
