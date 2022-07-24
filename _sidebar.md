@@ -25,11 +25,15 @@
 + ffmpeg
   + [ffmpeg从视频文件推RTSP流](/docs/ffmpeg/ffmpeg%E4%BB%8E%E8%A7%86%E9%A2%91%E6%96%87%E4%BB%B6%E6%8E%A8RTSP%E6%B5%81.md)
 + git
+  + [git commit template](/docs/git/git%20commit%20template.md)
   + [git设置文件名大小写敏感](/docs/git/git%E8%AE%BE%E7%BD%AE%E6%96%87%E4%BB%B6%E5%90%8D%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F.md)
+  + [pre-commit](/docs/git/pre-commit.md)
 + js
   + [echarts随页面自动缩放](/docs/js/echarts%E9%9A%8F%E9%A1%B5%E9%9D%A2%E8%87%AA%E5%8A%A8%E7%BC%A9%E6%94%BE.md)
   + [element-ui table组件只展开一行的办法](/docs/js/element-ui%20table%E7%BB%84%E4%BB%B6%E5%8F%AA%E5%B1%95%E5%BC%80%E4%B8%80%E8%A1%8C%E7%9A%84%E5%8A%9E%E6%B3%95.md)
   + [element-ui回调事件传递默认参数](/docs/js/element-ui%E5%9B%9E%E8%B0%83%E4%BA%8B%E4%BB%B6%E4%BC%A0%E9%80%92%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0.md)
+  + node
+    + [install node.js](/docs/js/node.js/install%20node.js.md)
 + linux
   + [bash tricks](/docs/linux/bash%20tricks.md)
   + [crontab使用](/docs/linux/crontab%E4%BD%BF%E7%94%A8.md)
@@ -49,6 +53,8 @@
   + [图形化显示评分](/docs/programming/%E5%9B%BE%E5%BD%A2%E5%8C%96%E6%98%BE%E7%A4%BA%E8%AF%84%E5%88%86.md)
   + [软件版本号](/docs/programming/%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E5%8F%B7.md)
 + python
+  + [Python magic methods](/docs/python/Python%20magic%20methods.md)
+  + [pyenv](/docs/python/pyenv.md)
   + pyqt5
     + [pyqt5居中窗口](/docs/python/pyqt5/pyqt5%E5%B1%85%E4%B8%AD%E7%AA%97%E5%8F%A3.md)
     + [pyqt5获取控件HWND](/docs/python/pyqt5/pyqt5%E8%8E%B7%E5%8F%96%E6%8E%A7%E4%BB%B6HWND.md)
@@ -88,6 +94,3 @@
   + [启用默认共享文件夹](/docs/windows/%E5%90%AF%E7%94%A8%E9%BB%98%E8%AE%A4%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9.md)
   + [常用注册表路径](/docs/windows/%E5%B8%B8%E7%94%A8%E6%B3%A8%E5%86%8C%E8%A1%A8%E8%B7%AF%E5%BE%84.md)
   + [管道符的含义](/docs/windows/%E7%AE%A1%E9%81%93%E7%AC%A6%E7%9A%84%E5%90%AB%E4%B9%89.md)
-+ 他山之石
-  + [我为什么写博客](/docs/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2.md)
-  + [编写可读代码的艺术](/docs/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3/%E7%BC%96%E5%86%99%E5%8F%AF%E8%AF%BB%E4%BB%A3%E7%A0%81%E7%9A%84%E8%89%BA%E6%9C%AF.md)
