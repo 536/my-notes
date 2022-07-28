@@ -67,6 +67,8 @@
   + [python抽象类](/docs/python/python%E6%8A%BD%E8%B1%A1%E7%B1%BB.md)
   + [python移除前缀后缀](/docs/python/python%E7%A7%BB%E9%99%A4%E5%89%8D%E7%BC%80%E5%90%8E%E7%BC%80.md)
   + [python类装饰器](/docs/python/python%E7%B1%BB%E8%A3%85%E9%A5%B0%E5%99%A8.md)
+  + 工具
+    + [pdf转word](/docs/python/%E5%B7%A5%E5%85%B7/pdf%E8%BD%ACword.md)
 + tools
   + [html转png、pdf](/docs/tools/html%E8%BD%ACpng%E3%80%81pdf.md)
 + windows
